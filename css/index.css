@@ -1,0 +1,21 @@
+.showcase{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.guize{
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+    display: block;
+}
+.guize h1{
+    color: #d11818;
+}

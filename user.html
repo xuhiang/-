@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/user.css">
+    <title>声情并茂 | 首页</title>
+</head>
+<body>
+    <!-- 网页头部 -->
+    <header>
+        <nav class="navbar">
+            <img src="./img/logo.png" alt="陈烁天的网页" height="50px">
+            <ul>
+                <li><a  href="index.html">首页</a></li>
+                <li><a href="start.html">开始</a></li>
+                <li><a class="now" href="user.html">注册</a></li>
+                <li><p id="uname"></p></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section id="contact-form" class="py">
+        <div class="clear"></div>
+        <form>
+            <div class="form-group">
+                <label for"name">姓名
+                <input type="text" name="name" id="name"></label>
+            </div>
+            <div class="form-group">
+                <label for"num">学号
+                <input type="text" name="num" id="num"></label>
+            </div>
+            <p id="error"></p>
+            <button type="button" class="btn" onclick="formResults(this.form)">提交</button>
+            </form>
+    </section>
+    <section>
+        <div id="a"></div><button type="button" class="btn" onclick="btn()">幸运大转盘</button>
+        <h1 id="lnum"></h1>
+    </section>
+    <article>
+        <div class="font1"><span class="icon-gamepad"></span><p>很有意思</p></div>
+        <div class="font2"><span class="icon-hammer2"></span><p>规则公平</p></div>
+        <div class="font1"><span class="icon-gamepad"></span><p>科技感强</p></div>
+    </article>
+    <footer class="footer">
+        <h4>声情并茂</h4>
+        <p>陈烁天 &copy; All Right Reserved</p>
+    </footer>
+    <script src="./js/luck.js"></script>
+    <script src="./js/user.js"></script>
+</body>
+</html>

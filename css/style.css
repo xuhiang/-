@@ -1,0 +1,132 @@
+/* rest */
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: #eeee;
+}
+/*字体图标 */
+
+  .icon-gamepad{
+    font-family: 'icomoon';
+    font-size: 1-px;
+}
+/* public */
+
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding-top: 70px;
+}
+h1{
+    text-align: center;
+}
+/* navbar */
+.navbar img{
+    float: left;
+}
+.navbar{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0 10px 20px 0 rgba( 0, 0, 0.3);
+	transition: background-color 0.4s;
+    background-size: contain;
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.navbar ul li a{
+    color: #000;
+    padding: 0 25px;
+}
+.navbar ul li a:hover,
+.navbar ul li a.now{
+    color: #ea1616;
+}
+.footer{
+    background-color: #fff;
+    text-align: center;
+    height: 50px;
+    margin-top: 105px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?gcvln1');
+    src:  url('../fonts/icomoon.eot?gcvln1#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?gcvln1') format('truetype'),
+      url('../fonts/icomoon.woff?gcvln1') format('woff'),
+      url('../fonts/icomoon.svg?gcvln1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+ .icon-gamepad{
+	font-family: 'icomoon';
+    font-size: 50px;
+ }
+.font{
+    margin-top: 20px;
+}
+ .font1{
+    float: left;
+    height: 90px;
+    background-color: #fff;
+    width: 33.33%;
+    text-align: center;
+    color: #ea1616;
+    margin: 0;
+ }
+ .icon-hammer2{
+    font-family: 'icomoon';
+    font-size: 50px;
+ }
+ .font2{
+    height: 90px;
+    float: left;
+    margin: 0 20px;
+    background-color:#ea1616;
+    width: 33.33%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+ }
+ .icon-chrome{
+    font-family: 'icomoon';
+    font-size: 50px;
+ }
+ .btn{
+	background-color: #fff;
+	height: 40px;
+	width: 100px;
+	font-size: 20px;
+	border: none;
+	text-align: center;
+	box-shadow: 2px 2px 3px #ee0202;
+	cursor:pointer;
+	margin:20px 50%;
+}
+.btn:hover{
+	background-color: #fa0f0f;
+	color: #ffffff;
+	height: 40px;
+	width: 100px;
+	font-size: 20px;
+	border: none;
+	text-align: center;
+	box-shadow: 2px 2px 3px #fff;
+	cursor:pointer;
+}
